@@ -37,7 +37,6 @@ CREATE TABLE IF NOT EXISTS `addresses` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1985 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `inbox`
 --
