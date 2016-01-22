@@ -63,5 +63,7 @@ Create groups in the UI
 Display a preview before sending
 
 Improved responsive content for some email clients
+
+Major refactoring
     
     
