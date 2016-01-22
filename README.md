@@ -52,7 +52,7 @@ At this point you should be done manually altering the database
  
 *Pick which inbox to send the e-mails from.
  
-*Pick "From" name, meaning the name you see as the e-mail sender. If left blank, defaults to the "Name" field you've set in the database.
+*Pick "From" name, meaning the name you see as the e-mail sender. If left blank, defaults to the "Name" field you've set in the database inbox table.
  
 *Hit send! The script continues executing even if you close the page. It will send a confirmation message to the sender after it's done. You can keep track of progress and previous mailings in the Statistics page.
 You can control the speed of which e-mails are sent by adding a simple sleep() command in pages/upload.php.
