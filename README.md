@@ -48,7 +48,7 @@ At this point you should be done manually altering the database
 
 *Check in which groups you're going to send the message to (should have been created previously in the database)
 
-*Type in an optional greeting (such as Dear <first name>, or simply Dear collegue <none>, etc). This uses whatever first names you've set in the contacts page.
+*Type in an optional greeting (such as Dear (first name), or simply Dear collegue (none), etc). This uses whatever first names you've set in the contacts page.
  
 *Pick which inbox to send the e-mails from.
  
