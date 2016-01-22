@@ -27,8 +27,8 @@ First you're going to have to create a database in your local MySQL server. Impo
 
 1. Configure your e-mail server (address and port) in /pages/upload.php
     
-    $mail->Host = '$yourservername';
-    $mail->Port = '$yourserverport';
+       $mail->Host = '$yourservername';
+       $mail->Port = '$yourserverport';
     
 2. Create user accounts manually in the database table 'inbox' (name and password are your mail server credentials for each user)
 
