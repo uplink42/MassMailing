@@ -9,8 +9,8 @@ class link{ //
     public function connect()
     {
        $hostname = "localhost";
-       $username = "uplink";
-       $password = "93y977r9h8";
+       $username = "";
+       $password = "";
        $database = "mailing2";
         
         $this->con = mysqli_connect($hostname, $username, $password, $database);
