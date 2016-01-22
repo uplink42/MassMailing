@@ -45,7 +45,9 @@ At this point you should be done manually altering the database
 *Text: upload the text file to send. To ensure HTML formatting is strictly enforced you should save your documents in .HTM format. This is easily done by any popular text editor (such as Microsoft Word). For MS Word I advise you to save your files as "webpage, filtered" to get rid of Office's specific tags which can trigger some spam filters.
 
 *Attachment (optional): send an image in .gif, .jpg, .jpeg and .png format (maximum 300 Kb but this can be manually changed in pages/newsletter.php): name="MAX_FILE_SIZE" value="310000" (size in bytes)
- 
+
+*Check in which groups you're going to send the message to (should have been created previously in the database)
+
 *Type in an optional greeting (such as Dear <first name>, or simply Dear collegue <none>, etc). This uses whatever first names you've set in the contacts page.
  
 *Pick which inbox to send the e-mails from.
