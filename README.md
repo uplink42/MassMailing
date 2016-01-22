@@ -18,6 +18,13 @@ jQuery 2.0+ (earlier versions may work but I never tested)
 PHPMailer library 5.0+ (earlier versions may work but I never tested)
 
 #How to use
+First you're going to have to create a database in your local MySQL server. Import the mailing2.sql file and you're good to go. Don't forget to change the /class/link.php file with your MySQL username and password:
+
+       $hostname = "localhost";
+       $username = "";
+       $password = "";
+       $database = "mailing2";
+
 1. Configure your e-mail server (address and port) in /pages/upload.php
     
     $mail->Host = '$yourservername';
@@ -29,9 +36,9 @@ PHPMailer library 5.0+ (earlier versions may work but I never tested)
 
 At this point you should be done manually altering the database
 
-4. Create some contacts  (contacts.php)
+4. Create some contacts  (/pages/contacts.php)
 
-5. Go to the newsletter page (newsletter.php) and fill in the required info:
+5. Go to the newsletter page (/pages/newsletter.php) and fill in the required info:
 
 *Subject: your e-mail subject
 
