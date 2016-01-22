@@ -57,6 +57,11 @@ At this point you should be done manually altering the database
 *Hit send! The script continues executing even if you close the page. It will send a confirmation message to the sender after it's done. You can keep track of progress and previous mailings in the Statistics page.
 You can control the speed of which e-mails are sent by adding a simple sleep() command in pages/upload.php.
 
+#To-do
+Create groups in the UI
 
+Display a preview before sending
+
+Improved responsive content for some email clients
     
     
